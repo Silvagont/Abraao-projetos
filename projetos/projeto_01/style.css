@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+.tabuleiro {
+    width: 400px;
+    margin: 0 auto;
+    background-color: rgb(87, 52, 8);
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.casa {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(255, 254, 254);
+    border : 1px solid rgb(0, 0, 0);
+}
+
+.preto {
+background-color: rgb(0, 0, 0);
+
+}
